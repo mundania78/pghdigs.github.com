@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!--[if lt IE 9]>  
+<script src="js/html5.js"></script>  
+<![endif]--> 
+
+<meta charset="utf-8" />
+
+<title>PGH Digs: Illustrating One Pittsburgh House At A Time</title>
+
+    <link rel="shortcut icon" href="favicon.gif" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>   
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen" />
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen" />
+    <link href="css/pghstyles.css" rel="stylesheet" media="screen" />
+
+    <style type="text/css">
+      #disclosure {
+          width: 300px;
+          display: none;
+          color:white;
+      }
+    </style>
+ 
+    <script>      
+      function toggle(element_id) {
+        var toggleState = document.getElementById(element_id).style.display;
+  
+        if (toggleState == 'block') {
+              document.getElementById(element_id).style.display = 'none';
+          } else {
+              document.getElementById(element_id).style.display = 'block';
+          }
+      }
+    </script>
+      
+   
+  
+</head>
+
+<body>
+
+  <header id="top">
+
+    <div class="pghnav row-fluid">
+      <div class="span6">
+       <h1 class="pghheader">PGH / DIGS</h1>
+       <h2 class="subheading">Illustrating One Pittsburgh House At A Time</h2>
+       </div>
+
+         <div class="span6">
+          <ul>
+            <li><a href="#" onclick="toggle('disclosure');">ABOUT</a></li>
+            <li><a href="http://twitter.com/mundaniahorvath" target="_blank">TWITTER</a></li>
+            <li><a href="http://facebook.com/pages/Reconstructing-Ideas/121346021956" target="_blank">FACEBOOK</a></li>
+ 
+            <div id="disclosure">
+              <h1>Hello Dane</h1>
+
+              <p>I am an Interactive Developer from England,
+              currently based in New York City working for Fi.</p>
+
+              <p>I earn my bread with HTML, CSS &amp; JavaScript development but I'll happily
+              play around with any language &amp; have a passion for learning new things. 
+              I currently like SASS &amp; CoffeeScript a lot.</p>
+            </div>
+          </ul>
+      </div>
+    </div>
+  </header>
+      
+
+
+
+<div class="house trenton fade-in">
+  <img src="img/901trenton.png" alt="901 trenton ave">
+   <p class="graytext">901 Trenton Avenue, Regent Square</p>
+</div>
+
+<div class="house lang fade-in">
+  <img src="img/209lang.png" alt="209 Lang">
+  <p class="graytext">209 North Lang Avenue, Point Breeze North </p>
+</div>
+
+<div class="house snegley fade-in">
+  <img src="img/1056snegley.png" alt="1056 S. Negley Avenue">
+  <p class="graytext">1056 S. Negley Avenue, Squirrel Hill</p>
+</div>
+
+
+<div class="house beechwood fade-in">
+  <img src="img/1064beechwood.png" alt="901 trenton ave">
+  <p class="whitetext">1064 Beechwood Blvd, Point Breeze</p>
+</div>
+
+<div class="house larryville fade-in">
+  <img src="img/43rdbutler.png" alt="901 trenton ave">
+  <p class="whitetext">95 43rd Street, Lawrenceville </p>
+</div>
+
+<div class="house beechwoodtwo fade-in">
+  <img src="img/1250beechwood.png" alt="1250 beechwood">
+  <p class="whitetext">1250 Beechwood Blvd, Point Breeze</p>
+</div>
+
+<div class="house dallas fade-in">
+  <img src="img/311dallas.png" alt="311 dallas">
+  <p class="graytext">311 S Dallas Ave, Point Breeze</p>
+</div>
+ 
+ <div id="aboutsection">
+   <div class="about">
+    <p>PGH Digs is a project where I document and illustrate different homes in the city of Pittsburgh. Whenever I drive, walk or bike in around in different neighborhoods, I'm so inspired by the different styles of homes we have here. This project started at the beginning of 2013</p>
+   </div>
+</div>
+
+ <div id="arrow">
+    <a href="#top"></a>
+  </div>
+
+<footer>
+  
+         
+
+</footer>
+</body>
+</html>
