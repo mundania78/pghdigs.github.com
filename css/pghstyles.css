@@ -167,6 +167,18 @@ p.graytext {
 	animation-delay: 1.6s;}
 
 
+footer {
+	 background-image: url(../img/wild_oliva.png);
+     background-repeat:repeat;
+     color: #777;
+     }
+
+	 footer p {
+	 	margin: 0;
+	 	padding: 20px;
+	 }
+
+
 @media (min-width: 480px) {
   body {
     padding-right:0px;
@@ -192,10 +204,11 @@ p.graytext {
   .pghnav li:last-child {
   	padding-right: 0;
   }
+
+  img {
+  	max-width: 90%;
+  }
 }
 
 
-footer {
-	 background-image: url(../img/wild_oliva.png);
-     background-repeat:repeat;
-	 height:50px;}
+
