@@ -178,14 +178,14 @@ p.graytext {
     padding-right:0px;
     padding-left:0px;}
 
-  .pghheader,
-  .subheading {
+  h1,
+  h2 {
   	padding-left: 0;
   }
   .pghnav {
   	text-align: center;
   }
-  .pghnav ul {
+  nav ul {
   	margin: 0;
   	float: none;
   }
