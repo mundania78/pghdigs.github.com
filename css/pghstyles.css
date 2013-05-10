@@ -1,6 +1,22 @@
 @import "css/bootstrap.css";
 @import "css/bootstrap-responsive.css";
 
+#disclosure {
+  display: none;
+  text-align: center;
+  margin: 16px 0;
+}
+
+#disclosure p {
+  padding: 0 12px;
+}
+
+.twitter {
+	margin-right: 12px;
+}
+.facebook {
+	margin-left: 12px;
+}
 
 .pghnav {
 	 background-image: url(../img/wild_oliva.png);
