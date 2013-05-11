@@ -57,7 +57,7 @@ h2 {
    nav li {
    	font-family: "Source Sans Pro", sans-serif;
    	letter-spacing:1.5px;
-   	color:white; padding-right: 25px;
+   	color:white; padding-right:45px;
    	display: inline;
  	list-style: none;}
 
@@ -68,7 +68,7 @@ h2 {
 
 	.span6 li a:hover {
 	text-decoration: none;
-	border-bottom: #EE6557 2px solid;}
+	border-bottom: #EE6557 4px solid;}
 
 #aboutsection {
 	 background-repeat: repeat;
