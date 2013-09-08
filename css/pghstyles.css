@@ -114,25 +114,48 @@ p.graytext {
 	padding: 35px 0;
 }
 
-.northave {background-color: #eeefee;}
+.yorkave {
+    background-color: #08a287;
+}
+.northave {
+    background-color: #eeefee;
+}
 
-.trenton{background-color: #e5e3d2;}
+.trenton {
+    background-color: #e5e3d2;
+}
 
-.snegley {background-color: #c4dad9;}
+.snegley {
+    background-color: #c4dad9;
+}
    
-.beechwood {background-color: #4f5052;}
+.beechwood {
+    background-color: #4f5052;
+}
 
-.gilda {background-color:#e36a74;}
+.gilda {
+    background-color:#e36a74;
+}
 
-.biddle {background-color:#faf4cd;}
+.biddle {
+    background-color:#faf4cd;
+}
 
-.larryville {background-color:#5ebe98;}
+.larryville {
+    background-color:#5ebe98;
+}
 
-.lang{background-color: #bce3e1;}
+.lang {
+    background-color: #bce3e1;
+}
 
-.beechwoodtwo{background-color: #4c2c12;}
+.beechwoodtwo {
+    background-color: #4c2c12;
+}
 
-.dallas {background-color: #c6e9f0;}
+.dallas {
+    background-color: #c6e9f0;
+}
 
 /*---HOUSES ---*/
 
