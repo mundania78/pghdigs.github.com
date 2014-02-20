@@ -3,7 +3,7 @@
 @import "css/bootstrap-responsive.css";
 
 body {
-	font-family: "Source Sans Pro", sans-serif;
+	font-family:"Times New Roman", Times, serif;
 	font-size: 14px;
 	letter-spacing: 1px
 }
@@ -82,22 +82,25 @@ nav ul {
 }
 
 .about {
-	color:white;
+	color: white;
 	font-family: "Source Sans Pro", sans-serif;
-	letter-spacing:1px;
+	letter-spacing: 1px;
 	max-width: 700px; text-align: center;
-	height:150px;
-	margin:0px auto 0px auto;}
+	height: 150px;
+	margin: 0px auto 0px auto;
+}
 
 p.whitetext { 
 	letter-spacing:1px;
 	text-align: center;
-	color:white;}
+	color:white;
+}
 
 p.graytext { 
 	letter-spacing:1px;
 	text-align: center;
-	color:gray;}
+	color:gray;
+}
 
 #arrow a {
 	display: block;
@@ -116,7 +119,7 @@ p.graytext {
 
 .house { 
 	width: 100%;
-	text-align:center;
+	text-align: center;
 	padding: 35px 0;
 }
 
@@ -232,17 +235,11 @@ footer {
      background-repeat:repeat;
      color: #777;}
 
-	 footer p {
-	 	margin: 0;
-	 	padding: 20px;}
+footer p {
+ 	margin: 0;
+ 	padding: 20px;
+ }
 
-
-@media (min-width: 480px) {
-  body {
-    padding-right:0px;
-    padding-left:0px;
-  }
-}
 
 @media (max-width: 767px) {
   body {
@@ -270,6 +267,13 @@ footer {
 
   img {
   	max-width: 90%;
+  }
+}
+
+@media (min-width: 480px) {
+  body {
+    padding-right:0px;
+    padding-left:0px;
   }
 }
 
