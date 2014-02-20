@@ -4,31 +4,36 @@
 
 body {
 	font-family:"Times New Roman", Times, serif;
-	font-size: 14px;
-	letter-spacing: 1px
+	min-height: 100%;
+  	height: auto !important;
+  	height: 100%; /** NEED FOR IE **/
+  	margin: 0;
+  	padding: 0;
 }
 
 h1 {  
    font-family: 'Abril Fatface', Times, serif;
    font-size:40px; color:#fff ;
    letter-spacing:2.5px;
-   padding-left:45px; padding-top: 20px;
+   padding: 30px 42px 2px;
 }
 
 h2 {
-	 font-size: 16px;
-	 font-style: italic;
-	 font-weight: normal;
-	 line-height: 18px;
-	 padding-left: 40px;
-	 margin-bottom: 34px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: .05em;
+	font-style: italic;
+	line-height: 18px;
+	padding-left: 40px;
+	margin-bottom: 34px;
 }
 
 #disclosure {
-  color: #333333;
-  display: none;
-  text-align: center;
-  margin: 16px 0;
+	color: #333333;
+  	display: none;
+  	text-align: center;
+  	margin: 16px 0;
 }
 
 #disclosure h1 {
@@ -56,7 +61,7 @@ nav ul {
    	float: right;
 }
    
- nav li {
+nav li {
    	font-family: "Source Sans Pro", sans-serif;
    	letter-spacing:1.5px;
    	color:white; padding-right:45px;
@@ -121,6 +126,37 @@ p.graytext {
 	width: 100%;
 	text-align: center;
 	padding: 35px 0;
+}
+
+.kingston {
+    background-color: #e7c176;
+}
+
+.5816darlington{
+    background-color: #12203c;
+}
+
+.whitehouse {
+    background-color: #aed0d9;
+}
+
+.dunmoyle {
+    background-color: #e9f7fb;
+}
+
+.121linden {
+    background-color: #fbf2bc;
+}
+
+.murdstone {
+    background-color: #222257;
+}
+
+.beverly {
+    background-color: #cbe7de;
+}
+.atlantic {
+    background-color: #c0dadb;
 }
 
 .penham {
@@ -249,6 +285,7 @@ footer p {
   h1 {
   	padding-left: 0;
   }
+  
   h2 {
   	margin-top: 0;
   	margin-bottom: 12px;
@@ -257,6 +294,7 @@ footer p {
   .pghnav {
   	text-align: center;
   }
+
   nav ul {
   	margin: 0;
   	float: none;
